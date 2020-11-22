@@ -1,1 +1,2 @@
-logs/apache/access.log
+logs/apache/*
+logs/php/*
