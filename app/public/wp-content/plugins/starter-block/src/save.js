@@ -14,13 +14,8 @@ import { __ } from '@wordpress/i18n';
  *
  * @return {WPElement} Element to render.
  */
-export default function save() {
+export default function save({ className, attributes }) {
 	return (
-		<p>
-			{ __(
-				'Starter Block – hello from the saved content!',
-				'starter-block'
-			) }
-		</p>
+		<div className={className}>{attributes.message}</div>
 	);
 }

@@ -32,6 +32,7 @@ export default function Edit({ className, attributes, setAttributes }) {
 			<TextControl
 					label="メッセージ"
 					value={ attributes.message }
+					onChange={ (val) => setAttributes({message: val}) }
 			/>
 		</div>
 	);
