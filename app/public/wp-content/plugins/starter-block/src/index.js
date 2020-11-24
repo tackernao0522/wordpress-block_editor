@@ -68,6 +68,14 @@ registerBlockType( 'create-block/starter-block', {
 		html: false,
 	},
 
+	attributes: {
+		message: {
+			type: 'string',
+			source: 'text',
+			selector: 'div',
+		}
+	},
+
 	/**
 	 * @see ./edit.js
 	 */
