@@ -5,6 +5,8 @@
  */
 import { __ } from '@wordpress/i18n';
 
+import { TextControl } from '@wordpress/components';
+
 /**
  * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
  * Those files can contain any CSS code that gets applied to the editor.
@@ -24,10 +26,13 @@ import './editor.scss';
  *
  * @return {WPElement} Element to render.
  */
-export default function Edit( { className } ) {
+export default function Edit({ className, attributes, setAttributes }) {
 	return (
-		<p className={ className }>
-			{ __( 'こんにちは', 'starter-block' ) }
-		</p>
+		<div className={className}>
+			<TextControl
+					label="メッセージ"
+					value={ attributes.message }
+			/>
+		</div>
 	);
 }
