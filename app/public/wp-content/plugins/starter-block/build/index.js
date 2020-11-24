@@ -218,7 +218,7 @@ function Edit(_ref) {
   var className = _ref.className;
   return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])("p", {
     className: className
-  }, Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__["__"])('Starter Block – hello from the editor!', 'starter-block'));
+  }, Object(_wordpress_i18n__WEBPACK_IMPORTED_MODULE_1__["__"])('こんにちは', 'starter-block'));
 }
 
 /***/ }),

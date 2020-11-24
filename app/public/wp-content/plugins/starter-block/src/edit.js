@@ -27,7 +27,7 @@ import './editor.scss';
 export default function Edit( { className } ) {
 	return (
 		<p className={ className }>
-			{ __( 'Starter Block – hello from the editor!', 'starter-block' ) }
+			{ __( 'こんにちは', 'starter-block' ) }
 		</p>
 	);
 }
