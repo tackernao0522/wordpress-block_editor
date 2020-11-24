@@ -1,2 +1,3 @@
 logs/php/*
 logs/apache/*
+app/public/wp-content/plugins/starter-block/build/*
